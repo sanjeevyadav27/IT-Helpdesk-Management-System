@@ -1,0 +1,193 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+
+body {
+
+    font-family: Arial, sans-serif;
+
+    background: #f4f6f8;
+
+    color: #222;
+}
+
+
+
+header {
+
+    background: #1f2937;
+
+    color: white;
+
+    text-align: center;
+
+    padding: 30px 20px;
+
+}
+
+
+header h1 {
+
+    margin-bottom: 8px;
+
+}
+
+
+header p {
+
+    color: #d1d5db;
+
+}
+
+
+
+main {
+
+    width: 90%;
+
+    max-width: 900px;
+
+    margin: 30px auto;
+
+}
+
+
+
+.card {
+
+    background: white;
+
+    padding: 25px;
+
+    margin-bottom: 25px;
+
+    border-radius: 10px;
+
+    box-shadow:
+        0 2px 8px rgba(0, 0, 0, 0.08);
+
+}
+
+
+
+h2 {
+
+    margin-bottom: 20px;
+
+}
+
+
+
+label {
+
+    display: block;
+
+    margin-top: 15px;
+
+    margin-bottom: 6px;
+
+    font-weight: bold;
+
+}
+
+
+
+input,
+textarea,
+select {
+
+    width: 100%;
+
+    padding: 11px;
+
+    border: 1px solid #ccc;
+
+    border-radius: 6px;
+
+    font-size: 14px;
+
+}
+
+
+
+textarea {
+
+    min-height: 100px;
+
+    resize: vertical;
+
+}
+
+
+
+button {
+
+    margin-top: 20px;
+
+    padding: 11px 20px;
+
+    border: none;
+
+    border-radius: 6px;
+
+    background: #2563eb;
+
+    color: white;
+
+    font-size: 15px;
+
+    cursor: pointer;
+
+}
+
+
+
+button:hover {
+
+    background: #1d4ed8;
+
+}
+
+
+
+#loginMessage,
+#ticketMessage {
+
+    margin-top: 15px;
+
+    font-weight: bold;
+
+}
+
+
+
+#ticketsList,
+#allTicketsList {
+
+    margin-top: 20px;
+
+    padding: 15px;
+
+    background: #f3f4f6;
+
+    border-radius: 8px;
+
+    overflow-x: auto;
+
+}
+
+
+
+#ticketsList pre,
+#allTicketsList pre {
+
+    white-space: pre-wrap;
+
+    font-family: Arial, sans-serif;
+
+    line-height: 1.8;
+
+}

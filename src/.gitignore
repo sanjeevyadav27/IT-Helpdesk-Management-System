@@ -1,0 +1,12 @@
+# Compiled Java files
+out/
+
+# VS Code settings
+.vscode/
+
+# MySQL connector
+lib/
+
+# OS files
+.DS_Store
+Thumbs.db
